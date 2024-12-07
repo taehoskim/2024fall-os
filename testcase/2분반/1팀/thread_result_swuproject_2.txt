@@ -1,0 +1,100 @@
+
+FCFS
+0 : T1(2)
+2 : T2 (2)
+4 : T3 (1)
+5 : T4 (3)
+8 : T5 (1)
+9 : E
+
+SJF(non preemptive)  
+
+0: T1 (2)
+1 : T3 (1)
+3 : T2 (2)
+5 : T5 (1)
+6 : T4 (3)
+9 : E
+
+SJF(preemptive)
+
+0 : T1 (2)
+2 : T3 (1)
+3 : T2 (1)
+4 : T5 (1)
+5 : T2 (1)
+6 : T4 (3)
+9 : E
+
+
+LJF (non preemptive)  
+
+0 : T1 (2)
+2 : T2 (1)
+3 : T4 (3)
+6 : T3 (1)
+7 : T5 (1)
+8 : T2 (1)
+9 : E
+
+//T3, T5, T2 의 순서는 변동 가능하다
+
+
+
+LJF (preemptive)
+
+0 : T1 (2)
+2 : T2 (1) 
+3 : T4 (3)
+6 : T2 (1)
+7 : T3 (1)
+8 : T5 (1)
+9 : E
+
+RR
+
+0 : T1 (1)
+1 : T2 (2) 
+2 : T3 (1)
+3 : T4 (1)
+4 : T5 (1)
+5 : T1 (1)
+6 : T2 (1)
+7: T4 (2)
+9 : E
+
+
+
+priority(non preemptive)
+
+0 : T1 (2)
+2 : T3 (1)
+3 : T4 (3)
+6 : T5 (1)
+7 : T2 (2)
+9 : E
+
+priority(preemptive)
+
+0 : T1 (1)
+1 : T2 (1)
+2 : T3 (1)
+3 : T4 (1)
+4 : T5 (1)
+5 : T4 (2)
+7 : T2 (1)
+8 : T1 (1)
+9 : E
+
+
+
+Results Completed Time Turnaround Time Waiting Time
+-----------------------------------------------------------------------------------
+FCFS 		9 			3.6			1.8
+SJF (non preemptive)	9		3		1.2
+SJF (preemptive)		9 		3		1.2
+LJF (non preemptive)	9		3.6		2
+LJF (preemptive)		9		4.4		2.6
+RR				9		4		2.4
+priority (non preemptive)  9		3.4		1.8
+priority (preemptive)	9		4.4		2.6

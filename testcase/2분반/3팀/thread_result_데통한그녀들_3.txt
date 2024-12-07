@@ -1,0 +1,89 @@
+FCFS
+0 : T1 (5)
+5 : T2 (2)
+7 : T3 (5)
+12 : T4 (10)
+22 : #
+
+SJF (non preemptive)
+0 : T1 (5)
+5 : T2 (2)
+7 : T3 (5)
+12 : T4 (10)
+22 : #
+
+SJF (preemptive)
+0 : T1 (5)
+5 : T2 (2)
+7 : T3 (5)
+12 : T4 (10)
+22 : #
+
+LJF (non preemptive)
+0 : T1 (5)
+5 : T3 (5)
+10 : T4 (10)
+18 : T2 (2)
+22 : #
+
+LJF (preemptive)
+0 : T1 (2)
+2 : T3 (5)
+7 : T1 (1)
+8 : T4 (10)
+18 : T1 (2)
+20 : T2 (2)
+22 : #
+
+Priority (non preemptive)
+0 : T1 (5)
+5 : T3 (5)
+10 : T4 (10)
+20 : T2 (2)
+22 : #
+
+Priority (preemptive)
+0 : T1 (2)
+2 : T3 (5)
+7 : T1 (1)
+8 : T4 (10)
+18 : T1 (2)
+20 : T2 (2)
+22 : #
+
+Round Robin
+0 : T1 (1)
+1 : T1 (1)
+2 : T3 (1)
+3 : T1 (1)
+4 : T2 (1)
+5 : T1 (1)
+6 : T3 (1)
+7 : T2 (1)
+8 : T4 (1)
+9 : T1 (1)
+10 : T3 (1)
+11 : T4 (1)
+12 : T3 (1)
+13 : T4 (1)
+14 : T3 (1)
+15 : T4 (1)
+16 : T4 (1)
+17 : T4 (1)
+18 : T4 (1)
+19 : T4 (1)
+20 : T4 (1)
+21 : T4 (1)
+22 : #
+
+
+Results                       Completed Time   Turnaround Time   Waiting Time
+--------------------------------------------------------------------------------
+FCFS					11.5			8			2.5
+SJF (non preemptive) 		11.5			8			2.5
+SJF (preemptive) 			11.5			8			2.5
+LJF (non preemptive) 		13.75			10.25			4.75
+LJF (preemptive) 			19.25			13.25			7.75
+priority (non preemptive)  	14.25			10.75			5.25
+priority (preemptive)   		19.25			13.25			7.75
+RR  					33.5			10.25 		4.75

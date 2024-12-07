@@ -1,0 +1,9 @@
+0 : T1 (35)
+35 : T5 (10)
+45 : T3 (15)
+60 : T4 (20)
+80 : T2 (25)
+105 : E
+
+Results Completed Time Turnaround Time Waiting Time
+SJF (non preemptive) 105.00 61.00 40.00

@@ -1,0 +1,10 @@
+Results Completed Time Turnaround Time Waiting Time
+---------------------------------------------------
+FCFS 210.00 105.40 63.40
+SJF (non preemptive) 210.00 87.40 45.40
+SJF (preemptive) 210.00 77.60 35.60
+priority (non preemptive) 210.00 127.40 85.40
+priority (preemptive) 210.00 139.80 97.80
+LJK (non preemptive) 210.00 127.40 85.40
+LJK (preemptive) 210.00 139.80 97.80
+RR 109.00 88.40 46.40

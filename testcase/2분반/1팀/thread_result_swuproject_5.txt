@@ -1,0 +1,89 @@
+FCFS
+0	T2(4)
+4	T1(3)
+7	T3(5)
+12	T4(1)
+13	T5(2)
+15	E
+
+SJF (non preemptive)
+0	T2(4)
+4	T1(3)
+7	T4(1)
+8	T5(2)
+10	T3(5)
+15	E
+
+SJF (preemptive)
+0	T2(4)
+4	T1(1)
+5	T4(1)
+6	T1(2)
+8	T5(2)
+10	T3(5)
+15	E
+
+LJF (non preemptive)
+0	T2(4)
+4	T3(5)
+9	T1(3)
+12	T5(2)
+14	T4(1)
+15	E
+
+LJF (preemptive)
+0	T2(2)
+2	T3(4)
+6	T5(2)
+8	T1(3)
+11	T2(2)
+13	T3(1)
+14	T4(1)
+15	E
+
+PRI (non preemptive)
+0	T2(4)
+4	T3(5)
+9	T5(2)
+11	T4(1)
+12	T1(3)
+15	E
+
+PRI (preemptive)
+0	T2(1)
+1	T1(1)
+2	T3(3)
+5	T4(1)
+6	T5(2)
+8	T3(2)
+10	T1(2)
+12	T2(3)
+15	E
+
+RR
+0	T2(1)
+1	T1(1)
+2	T3(1)
+3	T2(1)
+4	T1(1)
+5	T3(1)
+6	T4(1)
+7	T5(1)
+8	T2(1)
+9	T1(1)
+10	T3(1)
+11	T5(1)
+12	T2(1)
+13	T3(2)
+15	E
+
+Results 		Completed Time Turnaround Time Waiting Time 
+FCFS		          15                      7.4                 4.4
+SJF (non preemptive)          15                     5.4                 3    
+SJF (preemptive)                15                      6 	              2.8
+LJF (non preemptive)          15                      8                   5
+LJF (preemptive)                15                     9.4                 6.4
+priority (non preemptive)     15                     7.4                 4.4 
+priority (preemptive)           15                     7.4                 4.4  
+RR              	           15     	       8.6	             6.4 
+

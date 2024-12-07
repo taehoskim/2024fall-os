@@ -1,0 +1,165 @@
+
+FCFS
+0 : T1 (10)
+10 : T3 (8)
+18 : T2 (9)
+27 : T4 (7)
+34 : T5 (6)
+40 : E
+
+SJF (non preemptive)
+0 : T1 (10)
+10 : T5 (6)
+16 : T4 (7)
+23 : T3 (8)
+31 : T2 (9)
+40 : E
+
+SJF (preemptive)
+0 : T1 (1)
+1 : T3 (8)
+9 : T5 (6)
+15 : T4 (7)
+22 : T1 (9)
+31 : T2 (9)
+40 : E
+
+LJF (non preemptive)
+0 : T1 (10)
+10 : T2 (9)
+19 : T3 (8)
+27 : T4 (7)
+34 : T5 (6)
+40 : E
+
+LJF (preemptive)
+0 : T1 (3)
+3 : T3 (1)
+4 : T2 (3)
+7 : T3 (1)
+8 : T1 (1)
+9 : T4 (2)
+11 : T1 (1)
+12 : T3 (1)
+13 : T2 (1)
+14 : T5 (2)
+16 : T2 (1)
+17 : T3 (1)
+18 : T1 (1)
+19 : T4 (2)
+21 : T1 (1)
+22 : T3 (1)
+23 : T2 (1)
+24 : T5 (2)
+26 : T2 (1)
+27 : T3 (1)
+28 : T1 (1)
+29 : T4 (2)
+31 : T1 (1)
+32 : T3 (1)
+33 : T2 (1)
+34 : T5 (2)
+36 : T2 (1)
+37 : T3 (1)
+38 : T1 (1)
+39 : T4 (1)
+40 : E
+
+Priority (non preemptive)
+0 : T1 (10)
+10 : T4 (7)
+17 : T2 (9)
+26 : T3 (8)
+34 : T5 (6)
+40 : E
+
+Priority (preemptive)
+0 : T1 (10)
+10 : T4 (7)
+17 : T2 (9)
+26 : T3 (8)
+34 : T5 (6)
+40 : E
+
+RR
+0 : T1 (1)
+1 : T3 (1)
+4 : T2 (1)
+5 : T4 (1)
+7 : T5 (1)
+8 : T1 (1)
+9 : T3 (1)
+10 : T2 (1)
+11 : T4 (1)
+12 : T5 (1)
+13 : T1 (1)
+14 : T3 (1)
+15 : T2 (1)
+16 : T4 (1)
+17 : T5 (1)
+18 : T1 (1)
+19 : T3 (1)
+20 : T2 (1)
+21 : T4 (1)
+22 : T5 (1)
+23 : T1 (1)
+24 : T3 (1)
+25 : T2 (1)
+26 : T4 (1)
+27 : T5 (1)
+28 : T1 (1)
+29 : T3 (1)
+30 : T2 (1)
+31 : T4 (1)
+32 : T5 (1)
+33 : T1 (1)
+34 : T3 (1)
+35 : T2 (1)
+36 : T4 (1)
+37 : T1 (1)
+38 : T3 (1)
+39 : T2 (1)
+40 : T1 (1)
+41 : T2 (1)
+42 : T1 (1)
+43 : E
+
+Results for FCFS
+Completed Time	Turnaround Time	Waiting Time
+------------------------------------------------------------
+25.80	22.40	14.40
+
+Results for SJF (non preemptive)
+Completed Time	Turnaround Time	Waiting Time
+------------------------------------------------------------
+24.00	20.60	12.60
+
+Results for SJF (preemptive)
+Completed Time	Turnaround Time	Waiting Time
+------------------------------------------------------------
+23.40	20.00	12.00
+
+Results for LJF (non preemptive)
+Completed Time	Turnaround Time	Waiting Time
+------------------------------------------------------------
+26.00	22.60	14.60
+
+Results for LJF (preemptive)
+Completed Time	Turnaround Time	Waiting Time
+------------------------------------------------------------
+38.00	34.60	26.60
+
+Results for Priority (non preemptive)
+Completed Time	Turnaround Time	Waiting Time
+------------------------------------------------------------
+25.40	22.00	14.00
+
+Results for Priority (preemptive)
+Completed Time	Turnaround Time	Waiting Time
+------------------------------------------------------------
+25.40	22.00	14.00
+
+Results for RR
+Completed Time	Turnaround Time	Waiting Time
+------------------------------------------------------------
+38.80	35.40	27.40

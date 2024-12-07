@@ -1,0 +1,24 @@
+Non-preemptive SJF Scheduling:
+10 : T4 (10)
+11 : T2 (30)
+40 : T1 (40)
+90 : T5 (50)
+130 : T3 (80)
+210 : E
+Results Completed Time Turnaround Time Waiting Time
+----------------------------------------------------------------------------------------
+SJF (non preemptive) 491.00 77.60 35.60
+
+Preemptive SJF Scheduling:
+0 : T1 (40)
+1 : T2 (30)
+10 : T4 (10)
+20 : T2 (30)
+41 : T1 (40)
+80 : T3 (80)
+90 : T5 (50)
+140 : T3 (80)
+210 : E
+Results Completed Time Turnaround Time Waiting Time
+----------------------------------------------------------------------------------------
+SJF (preemptive) 491.00 77.60 35.60

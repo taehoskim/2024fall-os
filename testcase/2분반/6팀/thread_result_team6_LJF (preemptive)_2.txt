@@ -1,0 +1,13 @@
+LJF (preemptive) 
+
+0 : T1 (20)
+20 : T5 (40)
+60 : T1 (30)
+90 : T3 (30)
+120 : T2 (20)
+140 : T4 (10)
+150 : E
+
+Results               Completed Time   Turnaround Time   Waiting Time
+---------------------------------------------------------------------
+LJF (preemptive)           112.00           102.00             72.00

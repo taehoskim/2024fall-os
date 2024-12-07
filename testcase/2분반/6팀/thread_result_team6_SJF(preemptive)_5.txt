@@ -1,0 +1,16 @@
+Time 0: Thread T1 started
+Time 2: Thread T2 started
+Time 4: Thread T3 started
+Time 8: Thread T5 started
+Time 18: Thread T5 completed
+Time 29: Thread T3 completed
+Time 29: Thread T4 started
+Time 49: Thread T4 completed
+Time 72: Thread T2 completed
+Time 105: Thread T1 completed
+Time 105: All threads completed
+
+Results:
+Completed Time: 105.00
+Average Turnaround Time: 50.60
+Average Waiting Time: 29.60

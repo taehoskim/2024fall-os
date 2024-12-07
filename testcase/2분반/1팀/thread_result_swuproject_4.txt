@@ -1,0 +1,83 @@
+FCFS
+0 : T1 (3)
+3 : T2 (2)
+5 : T3 (1)
+6 : T4 (4)
+10 : T5 (2)
+12 : E
+
+SJF (Non-Preemptive)
+0 : T1 (3)
+3 : T2 (2)
+5 : T3 (1)
+6 : T5 (2)
+8 : T4 (4)
+12 : E
+
+SJF (Preemptive)
+0 : T1 (1)
+1 : T2 (2)
+3 : T1 (1)
+4 : T3 (1)
+5 : T5 (2)
+7 : T1 (1)
+8 : T4 (4)
+12 : E
+
+LJF(Non-Preemptive)
+0 : T1 (3)
+3 : T2 (2)
+5 : T3 (1)
+6 : T4 (4)
+10 : T5 (2)
+12 : E
+
+LJF (Preemptive)
+0 : T1 (3)
+3 : T2 (2)
+5 : T3 (1)
+6 : T4 (4)
+10 : T5 (2)
+12 : E
+
+Priority (Non-Preemptive)
+0 : T1 (3)
+3 : T2 (2)
+5 : T5 (2)
+7 : T3 (1)
+8 : T4 (4)
+12 : E
+
+Priority  (Preemptive)
+0 : T1 (3)
+3 : T2 (1)
+4 : T3 (1)
+5 : T5 (2)
+7 : T2 (1)
+8 : T4 (4)
+12 : E
+
+Round Robin (타임슬라이스 = 1)
+0 : T1 (1)
+1 : T2 (1)
+2 : T1 (1)
+3 : T2 (1)
+4 : T3 (1)
+5 : T1 (1)
+6 : T5 (1)
+7 : T4 (1)
+8 : T5 (1)
+9 : T4 (1)
+10 : T4 (1)
+11 : T4 (1)
+12 : E
+
+Results 		Completed Time Turnaround Time Waiting Time 
+FCFS		          15                      4.0            1.6
+SJF (non preemptive)          15                     3.6                 1.2    
+SJF (preemptive)                15                      3.4 	            1.4
+LJF (non preemptive)          15                      4.0                   1.6
+LJF (preemptive)                15                     4.0                 1.6
+priority (non preemptive)     15                     3.8                 1.4 
+priority (preemptive)           15                     6.0                 3.6  
+RR              	           15     	       4.4	             2.0
